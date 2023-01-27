@@ -1,0 +1,233 @@
+
+body{
+  font-family: montserrat;
+  text-align: center;
+}
+
+h1 {  
+  font-family: montserrat,sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;  
+  font-weight: 900;
+  color: white;
+}
+
+h2 {
+  font-family: montserrat;
+  font-weight: bold;
+}
+
+
+/*START OF NAVBAR CSS STYLE*/
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-right: 50px;
+  color: white;
+}
+.navbar-nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: 200;
+}
+
+
+
+/*END OF NAVBAR CSS STYLE*/
+
+/*START OF HERO CSS STYLE*/
+
+#title{
+  background-color: #ff3c5d;
+}
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.container-fluid h1{
+  margin-top: 35%;
+}
+
+.title-image{
+  width: 70%;
+  transform: rotate(7deg);
+}
+
+.hero-tagline{
+  text-align: left;
+}
+
+.hero-button{
+  margin: 5% 1.5%;
+  font-size: 2rem;
+}
+
+/*END OF HERO CSS STYLE*/
+
+/*START OF FEATURES CSS STYLE*/
+
+#features{
+  margin: 0 auto;
+  padding: 7% 10%;
+}
+
+
+
+
+
+.feature-box i{
+  font-size: 70px;
+  color: #fb5c77;
+  margin: 20px;
+}
+
+.feature-box i:hover{
+  color: #ff3d5d;
+}
+
+
+
+
+.col-md-12 h3{
+  font-weight: 600;
+}
+
+
+
+/*END OF FEATURES CSS STYLE*/
+
+
+/*START OF TESTIMONIALS CSS STYLE*/
+
+#testimonials{
+  background-color: #fc758b;
+  color: white;
+}
+
+.testimonial-img{
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/*START OF TESTIMONIALS CSS STYLE*/
+
+
+/*START OF PRESS CSS STYLE*/
+
+#press {
+  background-color: #fc758b;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px ;
+}
+
+
+/*CAROUSEL STYLE*/
+
+.carousel-item{
+  padding: 7% 15%;
+
+}
+
+.carousel-control-prev, .carousel-control-next{
+  background-color: transparent;
+  border-width: 0;
+  color: white;
+}
+
+
+
+
+/*START OF PRESS CSS STYLE*/
+
+
+
+/*STARTOF PRICING CSS */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.button-free{
+  border: solid #fb5c77;
+  color: #fb5c77;
+}
+
+.button-free:hover{
+  border: solid #fb5c77;
+  background-color: #fb5c77;
+  color: white;
+}
+
+.button-2, .button-3{
+  background-color: #fb5c77;
+  border: #fb5c77 solid;
+}
+
+
+.button-2:hover, .button-3:hover{
+  background-color: #ff3c5d;
+  border: #ff3c5d solid;
+}
+
+
+/* END OF PRICING CSS */
+
+
+/* START OF CTA CSS */
+
+#cta{
+  background-color: #ff3c5d;
+  color: white;
+  padding: 60px 0;
+}
+
+#cta h3{
+  width: 50%;
+  font-weight: 600;
+  margin: 50px auto;
+  font-size: 55px;
+}
+
+/* END OF CTA CSS */
+
+
+/* START OF FOOTER CSS */
+
+#footer{
+  padding: 7% 15%;
+}
+
+
+#footer i{
+  margin: 10px;
+}
+
+/* END OF FOOTER CSS */
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1028px){
+  .title-image{
+    transform: rotate(0deg);
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .hero-tagline {
+    text-align: center;
+  }
+}
